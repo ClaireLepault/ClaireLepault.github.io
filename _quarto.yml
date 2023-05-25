@@ -1,8 +1,14 @@
 project:
   type: website
 
+# Metadata
+pagetitle: "{{< meta title >}} | Claire Lepault"
+description-meta: "Welcome! I am PhD candidate at the Paris School of Economics and CIRED."
+author-meta: "Claire Lepault"
+
 website:
   title: "Claire Lepault"
+  description: "{{< meta description-meta >}}"
   navbar:
     background: "#95c7ac"
     search: true
