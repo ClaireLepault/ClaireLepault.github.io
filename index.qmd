@@ -1,6 +1,6 @@
 ---
 title: "Claire Lepault"
-image: profile.jpg
+image: profile.png
 about:
   template: trestles
   image-shape: round
