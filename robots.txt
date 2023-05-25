@@ -1,1 +1,1 @@
-Sitemap: https://github.com/ClaireLepault/quarto-website/sitemap.xml
+Sitemap: https://github.com/ClaireLepault/ClaireLepault.github.io/sitemap.xml
