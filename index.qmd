@@ -1,0 +1,27 @@
+---
+title: "Claire Lepault"
+image: profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - text: PSE
+      href: https://www.parisschoolofeconomics.eu/
+    - text: CIRED
+      href: https://www.centre-cired.fr/en/
+    - text: ENPC
+      href: https://ecoledesponts.fr/
+    
+---
+
+Welcome! I am a PhD candidate at the Paris School of Economics (PSE) and CIRED (via ENPC).  My advisors are [Hélène Ollivier](https://sites.google.com/site/heleneollivier/) and [Philippe Quirion](https://www.centre-cired.fr/philippe-quirion/).
+
+I’m currently visiting the University of Oregon hosted by [Ed Rubin](http://edrub.in/).
+
+My research lies at the intersection of environmental, development and health economics, more specifically on issues related to water pollution and climate change in India. 
+
+Before the PhD, I received an engineering degree at ENPC and a master Analysis and Policy in Economics at PSE. Much of my motivation comes from experience working for the Intergovernmental Panel on Climate Change (IPCC) at CIRED. 
+
+**Contact** : claire.lepault [at] psemail.eu
+
+Please feel free to get in touch!

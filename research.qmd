@@ -1,0 +1,22 @@
+---
+title: "Research"
+---
+
+### Work in progress
+
+**Is urban wastewater treatment effective in India?**
+
+**Heat stress, hydraulic conditions and health in India** with Philippe Quirion and Pierre Uginet
+
+**Fertilizers, water quality and perinatal health in India** with Eléonore Rouault
+
+### Publication
+
+**Mapping forward-looking mitigation studies at country level**, Claire Lepault and Franck Lecocq, *Environmental Research Letters*, Volume 16.8, July 2021 <br> [link to open access article](https://doi.org/10.1088/1748-9326/ac0ac8) | [code](https://github.com/ClaireLepault/Mapping-country-mitig-pathways)
+
+### Other contributions
+
+* Contributing Author of [Chapter 4: Mitigation and development pathways in the near- to mid-term](https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter04.pdf) of the $6^{th}$ IPCC Assessment Report (AR6, WG III)
+      
+
+* Participation in the creation of the [AR6 Scenarios Database](https://zenodo.org/record/5886912#.YnF0v4Nfg8o)

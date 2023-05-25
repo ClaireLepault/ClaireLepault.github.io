@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Claire Lepault"
+  navbar:
+    background: "#95c7ac"
+    search: true
+    left:
+      - text: "About"
+        href: "index.qmd" 
+      - CV.qmd
+      - research.qmd
+      - teaching.qmd
+      - talks.qmd
+      
+    right:
+      - icon: github
+        href:  https://github.com/ClaireLepault
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
