@@ -11,8 +11,6 @@ about:
       href: https://www.centre-cired.fr/en/claire-lepault-2/
     - icon: github
       href: https://github.com/ClaireLepault
-
-    
 ---
 
 Welcome! I am a PhD candidate at the Paris School of Economics (PSE) and CIRED (via ENPC).  My advisors are [Hélène Ollivier](https://sites.google.com/site/heleneollivier/) and [Philippe Quirion](https://www.centre-cired.fr/philippe-quirion/).

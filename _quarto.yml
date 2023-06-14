@@ -3,7 +3,6 @@ project:
 
 website:
   title: "Claire Lepault"
-  description: "{{< meta description-meta >}}"
   navbar:
     background: "#95c7ac"
     search: true
