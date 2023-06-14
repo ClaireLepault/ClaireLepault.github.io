@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Claire Lepault">
-<meta name="description" content="Welcome! I am PhD candidate at the Paris School of Economics and CIRED.">
 
-<title>Claire Lepault | Claire Lepault</title>
+<title>Claire Lepault</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -64,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -102,14 +101,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Talks</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/ClaireLepault" rel="" target=""><i class="bi bi-github" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-</ul>
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools ms-auto">
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -119,43 +111,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="profile.png" class="about-image
-  round " style="height: 20em; width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Claire Lepault</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://www.parisschoolofeconomics.eu/" class="about-link" rel="" target="">
-     <span class="about-link-text">PSE</span>
-  </a>
-  <a href="https://www.centre-cired.fr/en/" class="about-link" rel="" target="">
-     <span class="about-link-text">CIRED</span>
-  </a>
-  <a href="https://ecoledesponts.fr/" class="about-link" rel="" target="">
-     <span class="about-link-text">ENPC</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+
+
 <p>Welcome! I am a PhD candidate at the Paris School of Economics (PSE) and CIRED (via ENPC). My advisors are <a href="https://sites.google.com/site/heleneollivier/">Hélène Ollivier</a> and <a href="https://www.centre-cired.fr/philippe-quirion/">Philippe Quirion</a>.</p>
-<p>I’m currently visiting the University of Oregon hosted by <a href="http://edrub.in/">Ed Rubin</a>.</p>
 <p>My research lies at the intersection of environmental, development and health economics, more specifically on issues related to water pollution and climate change in India.</p>
+<p>In spring 2023, I have been visiting the University of Oregon hosted by <a href="http://edrub.in/">Ed Rubin</a>.</p>
 <p>Before the PhD, I received an engineering degree at ENPC and a master Analysis and Policy in Economics at PSE. Much of my motivation comes from experience working for the Intergovernmental Panel on Climate Change (IPCC) at CIRED.</p>
 <p><strong>Contact</strong> : claire.lepault [at] psemail.eu</p>
 <p>Please feel free to get in touch!</p>
 
 
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -176,6 +149,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

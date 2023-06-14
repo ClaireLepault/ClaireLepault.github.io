@@ -5,14 +5,14 @@ title: "Talks"
 
 #### **Conferences**
 
-* **2023**: Journées doctorales du développement (Orléans), IPWSD at Columbia University (New York) <br> *Scheduled : AERE summer conference (Portland, Maine), ICDE (Paris)*
+* **2023**: AERE summer conference (Portland, Maine), IPWSD at Columbia University (New York), Journées doctorales du développement (Orléans)  <br> *Scheduled : ICDE (Paris)*
 
 * **2022**: ENR international conference (Orléans), Journées LAGV (Marseille), Nordic Conference in Development Economics (Helsinki), EAERE annual conference (Rimini), FAERE annual conference (Rouen)
 
 
 #### **Seminars**
 
-* **2023**: PSE CFD seminar (Paris)
+* **2023**: UO Micro applied seminar (Eugene, Oregon), PSE CFD seminar (Paris)
 
 * **2022**: TSE Workshop (Toulouse), PSE REM seminar (Paris), CIRED PhD student seminar (Paris), PSE CFD seminar (Paris)
 
