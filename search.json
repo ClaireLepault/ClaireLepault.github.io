@@ -1,24 +1,17 @@
 [
   {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "CV",
+    "section": "",
+    "text": "Full CV\n\nEducation\n\n2020 – Present: Ph.D. in Economics, Paris School of Economics, ENPC, CIRED\nSpring 2023: Visiting in the Economics department of the University of Oregon\n2019 – 2020: Master 2 Analysis and Policy in Economics, Paris School of Economics\n2016 – 2020: Engineering degree, Ecole Nationale des Ponts et Chaussées (ENPC)\n2014 – 2016: Two years of intensive preparatory courses in Mathematics and Physics (MPSI-MP*), Lycee Blaise Pascal (Orsay)\n\n\nRelevant Experience\n\n2018 – 2020: Research Assistant at CIRED  Work with Franck Lecocq, CLA of Chapter 4 of the IPCC AR6 (WG III)\nSpring 2019: Research Assistant at the Energy Research Centre (Cape Town, South Africa)  Work with Harald Winkler, CLA of Chapter 4 of the IPCC AR6 (WG III)"
+  },
+  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
     "text": "Teaching Assistant at SciencesPo Paris|PSIA\n\nNatural Resources Economics (M1, taught in English), Pr. L.-G. Giraudet  Fall 2020, 2021, 2022\n\n\nTeaching Assistant at University Paris I Panthéon-Sorbonne\n\nIntroduction to Econometrics (L3, taught in French), Pr. C. Doz and T. Broer  Spring 2022\nStatistics : Probabilities (L2, taught in French), Pr. D. Brochard and E. Defebvre  Fall 2021"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Work in progress\nIs urban wastewater treatment effective in India?\nHeat stress, hydraulic conditions and health in India with Philippe Quirion and Pierre Uginet\nFertilizers, water quality and perinatal health in India with Eléonore Rouault \n\n\nPublication\nMapping forward-looking mitigation studies at country level, Claire Lepault and Franck Lecocq, Environmental Research Letters, Volume 16.8, July 2021  link to open access article | code \n\n\nOther contributions\n\nContributing Author of Chapter 4: Mitigation and development pathways in the near- to mid-term of the \\(6^{th}\\) IPCC Assessment Report (AR6, WG III)\nParticipation in the creation of the AR6 Scenarios Database"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Claire Lepault",
-    "section": "",
-    "text": "Welcome! I am a PhD candidate at the Paris School of Economics (PSE) and CIRED (via ENPC). My advisors are Hélène Ollivier and Philippe Quirion.\nMy research lies at the intersection of environmental, development and health economics, more specifically on issues related to water pollution and climate change in India.\nIn spring 2023, I have been visiting the University of Oregon hosted by Ed Rubin.\nBefore the PhD, I received an engineering degree at ENPC and a master Analysis and Policy in Economics at PSE. Much of my motivation comes from experience working for the Intergovernmental Panel on Climate Change (IPCC) at CIRED.\nContact : claire.lepault [at] psemail.eu\nPlease feel free to get in touch!"
   },
   {
     "objectID": "talks.html",
@@ -28,10 +21,31 @@
     "text": "Conferences\n\n2023: AERE summer conference (Portland, Maine), IPWSD at Columbia University (New York), Journées doctorales du développement (Orléans)  Scheduled : ICDE (Paris)\n2022: ENR international conference (Orléans), Journées LAGV (Marseille), Nordic Conference in Development Economics (Helsinki), EAERE annual conference (Rimini), FAERE annual conference (Rouen)\n\n\n\nSeminars\n\n2023: UO Micro applied seminar (Eugene, Oregon), PSE CFD seminar (Paris)\n2022: TSE Workshop (Toulouse), PSE REM seminar (Paris), CIRED PhD student seminar (Paris), PSE CFD seminar (Paris)\n2021: PSE CFD seminar (Paris)\n2019: CIRED Bricol’R (Paris)"
   },
   {
-    "objectID": "CV.html",
-    "href": "CV.html",
-    "title": "CV",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Claire Lepault",
     "section": "",
-    "text": "Full CV\n\nEducation\n\n2020 – Present: Ph.D. in Economics, Paris School of Economics, ENPC, CIRED\nSpring 2023: Visiting in the Economics department of the University of Oregon\n2019 – 2020: Master 2 Analysis and Policy in Economics, Paris School of Economics\n2016 – 2020: Engineering degree, Ecole Nationale des Ponts et Chaussées (ENPC)\n2014 – 2016: Two years of intensive preparatory courses in Mathematics and Physics (MPSI-MP*), Lycee Blaise Pascal (Orsay)\n\n\nRelevant Experience\n\n2018 – 2020: Research Assistant at CIRED  Work with Franck Lecocq, CLA of Chapter 4 of the IPCC AR6 (WG III)\nSpring 2019: Research Assistant at the Energy Research Centre (Cape Town, South Africa)  Work with Harald Winkler, CLA of Chapter 4 of the IPCC AR6 (WG III)"
+    "text": "Welcome! I am PhD candidate at the Paris School of Economics (PSE) and CIRED (via ENPC). My advisors are Hélène Ollivier and Philippe Quirion.\nMy research lies at the intersection of environmental, development and health economics, more specifically on issues related to water pollution and climate change in India.\nIn spring 2023, I have been visiting the University of Oregon hosted by Ed Rubin.\nBefore the PhD, I received an engineering degree at ENPC and a master Analysis and Policy in Economics at PSE. Much of my motivation comes from experience working for the Intergovernmental Panel on Climate Change (IPCC) at CIRED.\nContact : claire.lepault [at] psemail.eu\nPlease feel free to get in touch!"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Work in progress\nIs urban wastewater treatment effective in India?\nHeat stress, hydraulic conditions and health in India with Philippe Quirion and Pierre Uginet\nFertilizers, water quality and perinatal health in India with Eléonore Rouault \n\n\nPublication\nMapping forward-looking mitigation studies at country level, Claire Lepault and Franck Lecocq, Environmental Research Letters, Volume 16.8, July 2021  link to open access article | code \n\n\nOther contributions\n\nContributing Author of Chapter 4: Mitigation and development pathways in the near- to mid-term of the \\(6^{th}\\) IPCC Assessment Report (AR6, WG III)\nParticipation in the creation of the AR6 Scenarios Database"
+  },
+  {
+    "objectID": "toolbox.html",
+    "href": "toolbox.html",
+    "title": "Toolbox",
+    "section": "",
+    "text": "Setting up Jupyter Notebook with R kernel\n\n\n\n\n\n\n\n\n\n\n\n\nJun 28, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tools/Tuto1.html",
+    "href": "tools/Tuto1.html",
+    "title": "Setting up Jupyter Notebook with R kernel",
+    "section": "",
+    "text": "Prepared by Claire Lepault and Marie Sevestre \nJupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. Within a notebook, you can write and execute code snippets in cells, which can be individually executed. Jupyter Notebook supports various programming languages, including Python, R, Julia (whose Jupyter name is derived), and many others, through different kernels.\nIn this tutorial, we provide command lines to install Jupyter Notebook and R kernel on Ubuntu and macOS.\n\n\nInstallation of Jupyter Notebook\nWe assume that python3 is already installed on your computer. (You can check by using the command python3 –version in the terminal and eventually download it here.)\nTo install Jupyter Notebook, you typically use pip the package management system for installing and managing Python packages. By using pip, you ensure thant the required dependencies and components are installed correctly, including Jupyter Notebook.\nOn Ubuntu and macOS, you can respectively follow the steps :\n\nOn Ubuntu (version 22.04, python 3.10.6 tested here) in the computer’s terminal :\n\n\nTo install pip\n  $ sudo apt install python3-pip \nTo install Jupyter\n  $ pip3 install jupyter \nTo open Jupyter Notebook\n  $ jupyter notebook \n\n\nOn macOS (version 12.1, python 3.8.5 tested here) in the computer’s terminal :\n\nTo install pip\n  $ install python3-pip \nTo install Jupyter\n  $ pip3 install jupyter \nTo open Jupyter Notebook \n  $ jupyter notebook \n\n\nIf the Jupyter installation was successful, but you are still unable to open Jupyter Notebook, you may need to restart your computer.\nOther tips: If you want to check the installed versions of python3 and pip and eventually upgrade them, you can use the following commands in the terminal:\n\nTo check the installed version of python \n  $ python3 --version \nTo check the installed version of pip\n  $ pip3 --version \nTo make sure that all packages are up-to-date : \n  $ pip3 install --upgrade pip3 \n\n\n\nAt this stage, you can only open a Jupyter Notebook in Python.  You can now follow the tutorial below to install the R kernel so that you can open a Jupyter Notebook in R.\n\n\nInstallation of R kernel\nWe assume that R is already installed on your computer. (You can download it here using the documentation related to your system. On Ubuntu, the steps proposed by Daniel Weitzel are very useful.)\nR kernel is a software component that allows you to run R code and create R notebooks within the Jupyter Notebook interface. In comparison with Rmarkdown, Jupyter Notebook with R kernel provides a web-based interface that allows you to edit and execute code cells interactively. It is great for interactive execution and exploration of code.\nOn both Ubuntu and macOS:\n\nYou can use the computer’s terminal :\n\nTo launch the R console \n  $ R \nTo install the IRkernel packages \n  &gt; install.packages(‘IRkernel')  \nTo link IRkernel with Jupyter Notebook \n  &gt; IRkernel::installspec()  \n\n\nOr if you are used to Rstudio, you can work directly in the Rstudio console:\n\n  install.packages(‘IRkernel')                                              \n  IRkernel::installspec()\n\n\n\nCreate a R notebook\nYou can open Jupyter Notebook from the computer’s terminal using the command:\n  \n    $ jupyter notebook \n  \n\nIf you have well installed IRkernel on your computer, you can now create a R notebook !"
   }
 ]

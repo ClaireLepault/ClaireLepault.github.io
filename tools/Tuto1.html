@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-06-28">
 
-<title>Claire Lepault - Teaching</title>
+<title>Claire Lepault - Setting up Jupyter Notebook with R kernel</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -71,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Claire Lepault</span>
     </a>
   </div>
@@ -82,27 +83,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html" rel="" target="">
+    <a class="nav-link" href="../CV.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
+    <a class="nav-link" href="../research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html" rel="" target="">
+    <a class="nav-link" href="../talks.html" rel="" target="">
  <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./toolbox.html" rel="" target="">
+    <a class="nav-link" href="../toolbox.html" rel="" target="">
  <span class="menu-text">Toolbox</span></a>
   </li>  
 </ul>
@@ -117,14 +118,22 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#installation-of-jupyter-notebook" id="toc-installation-of-jupyter-notebook" class="nav-link active" data-scroll-target="#installation-of-jupyter-notebook">Installation of Jupyter Notebook</a></li>
+  <li><a href="#installation-of-r-kernel" id="toc-installation-of-r-kernel" class="nav-link" data-scroll-target="#installation-of-r-kernel">Installation of R kernel</a></li>
+  <li><a href="#create-a-r-notebook" id="toc-create-a-r-notebook" class="nav-link" data-scroll-target="#create-a-r-notebook">Create a R notebook</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching</h1>
+<h1 class="title">Setting up Jupyter Notebook with R kernel</h1>
 </div>
 
 
@@ -132,6 +141,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 28, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -139,19 +154,85 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><br></p>
-<p><strong>Teaching Assistant at SciencesPo Paris|PSIA</strong></p>
+<section id="prepared-by-claire-lepault-and-marie-sevestre" class="level4">
+<h4 class="anchored" data-anchor-id="prepared-by-claire-lepault-and-marie-sevestre"><em>Prepared by Claire Lepault and Marie Sevestre</em> <br></h4>
+<p>Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. Within a notebook, you can write and execute code snippets in cells, which can be individually executed. Jupyter Notebook supports various programming languages, including Python, R, Julia (whose Jupyter name is derived), and many others, through different kernels.</p>
+<p>In this tutorial, we provide command lines to install Jupyter Notebook and R kernel on Ubuntu and macOS.</p>
+</section>
+<section id="installation-of-jupyter-notebook" class="level3">
+<h3 class="anchored" data-anchor-id="installation-of-jupyter-notebook">Installation of Jupyter Notebook</h3>
+<p>We assume that <em><code>python3</code></em> is already installed on your computer. (You can check by using the command <em>python3 –version</em> in the terminal and eventually download it <a href="https://www.python.org/downloads/">here</a>.)</p>
+<p>To install Jupyter Notebook, you typically use <em><code>pip</code></em> the package management system for installing and managing Python packages. By using <em><code>pip</code></em>, you ensure thant the required dependencies and components are installed correctly, including Jupyter Notebook.</p>
+<p>On <em>Ubuntu</em> and <em>macOS</em>, you can respectively follow the steps :</p>
 <ul>
-<li>Natural Resources Economics (M1, taught in English), Pr. L.-G. Giraudet <br> Fall 2020, 2021, 2022</li>
+<li><p>On Ubuntu (version 22.04, python 3.10.6 tested here) in the <strong>computer’s terminal</strong> :<br>
+</p>
+<pre><code>
+To install pip
+  <span>$ sudo apt install python3-pip </span>
+To install Jupyter
+  <span>$ pip3 install jupyter </span>
+To open Jupyter Notebook
+  <span>$ jupyter notebook </span>
+</code>
+</pre></li>
+<li><p>On macOS (version 12.1, python 3.8.5 tested here) in the <strong>computer’s terminal</strong> :</p>
+<pre><code>
+To install pip
+  <span>$ install python3-pip </span>
+To install Jupyter
+  <span>$ pip3 install jupyter </span>
+To open Jupyter Notebook 
+  <span>$ jupyter notebook </span>
+</code>
+</pre></li>
+<li><p><em>If the Jupyter installation was successful, but you are still unable to open Jupyter Notebook, you may need to restart your computer.</em></p></li>
+<li><p><em>Other tips:</em> If you want to check the installed versions of <em><code>python3</code></em> and <em><code>pip</code></em> and eventually upgrade them, you can use the following commands in the terminal:</p>
+<pre><code>
+To check the installed version of python 
+  <span>$ python3 --version </span>
+To check the installed version of pip
+  <span>$ pip3 --version </span>
+To make sure that all packages are up-to-date : 
+  <span>$ pip3 install --upgrade pip3 </span>
+</code>
+</pre></li>
 </ul>
-<p><br></p>
-<p><strong>Teaching Assistant at University Paris I Panthéon-Sorbonne</strong></p>
+<p>At this stage, you can only open a Jupyter Notebook in Python. <br> You can now follow the tutorial below to install the R kernel so that you can open a Jupyter Notebook in R.</p>
+</section>
+<section id="installation-of-r-kernel" class="level3">
+<h3 class="anchored" data-anchor-id="installation-of-r-kernel">Installation of R kernel</h3>
+<p>We assume that <em><code>R</code></em> is already installed on your computer. (You can download it <a href="https://www.r-project.org/">here</a> using the <a href="https://cran.r-project.org/doc/FAQ/R-FAQ.html9">documentation</a> related to your system. On Ubuntu, the <a href="https://www.danweitzel.net/post/installr/">steps</a> proposed by Daniel Weitzel are very useful.)</p>
+<p>R kernel is a software component that allows you to run R code and create R notebooks within the Jupyter Notebook interface. In comparison with Rmarkdown, Jupyter Notebook with R kernel provides a web-based interface that allows you to edit and execute code cells interactively. It is great for interactive execution and exploration of code.</p>
+<p>On both <em>Ubuntu</em> and <em>macOS</em>:</p>
 <ul>
-<li><p>Introduction to Econometrics (L3, taught in French), Pr. C. Doz and T. Broer <br> Spring 2022</p></li>
-<li><p>Statistics : Probabilities (L2, taught in French), Pr. D. Brochard and E. Defebvre <br> Fall 2021</p></li>
+<li>You can use the <strong>computer’s terminal</strong> :
+<pre><code>
+To launch the R console 
+  <span>$ R </span>
+To install the IRkernel packages 
+  &gt; install.packages(‘IRkernel')  
+To link IRkernel with Jupyter Notebook 
+  &gt; IRkernel::installspec()  
+</code>
+</pre></li>
+<li><strong>Or</strong> if you are used to Rstudio, you can work directly in the <strong>Rstudio console</strong>:</li>
 </ul>
+<pre>  install.packages(‘IRkernel')                                              
+  IRkernel::installspec()
+</pre>
+</section>
+<section id="create-a-r-notebook" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-r-notebook">Create a R notebook</h3>
+You can open Jupyter Notebook from the <strong>computer’s terminal</strong> using the command:
+<pre>  <code>
+    <span>$ jupyter notebook </span>
+  </code>
+</pre>
+<p>If you have well installed IRkernel on your computer, you can now create a R notebook ! <br> <img src="tuto1_ex1_jnb.png" width="1000" height="400"> <img src="tuto1_ex2_jnb.png" width="1000" height="400"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
