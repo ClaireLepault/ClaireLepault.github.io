@@ -1,0 +1,104 @@
+---
+title: "Setting up Jupyter Notebook with R kernel"
+format: html
+image: tuto1.png
+date: 06-28-23
+---
+
+
+#### *Prepared by Claire Lepault and Marie Sevestre* <br>
+
+Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. Within a notebook, you can write and execute code snippets in cells, which can be individually executed. Jupyter Notebook supports  various programming languages, including Python, R, Julia (whose Jupyter name is derived), and many others, through different kernels. 
+
+In this tutorial, we provide command lines to install Jupyter Notebook and R kernel on Ubuntu and macOS. 
+
+
+### Installation of Jupyter Notebook
+
+We assume that *`python3`* is already installed on your computer. (You can check by using the command *python3 --version* in the terminal and eventually download it [here](https://www.python.org/downloads/).)
+
+To install Jupyter Notebook, you typically use *`pip`* the package management system for installing and managing Python packages. By using *`pip`*, you ensure thant the required dependencies and components are installed correctly, including Jupyter Notebook. 
+
+On *Ubuntu* and *macOS*, you can respectively follow the steps :  
+
+* On Ubuntu (version 22.04, python 3.10.6 tested here) in the **computer's terminal** :  
+<pre>
+  <code>
+  To install pip
+    <span>&#36; sudo apt install python3-pip </span>
+  To install Jupyter
+    <span>&#36; pip3 install jupyter </span>
+  To open Jupyter Notebook
+    <span>&#36; jupyter notebook </span>
+  </code>
+</pre>
+
+* On macOS (version 12.1, python 3.8.5 tested here) in the **computer's terminal** : 
+<pre>
+  <code>
+  To install pip
+    <span>&#36; install python3-pip </span>
+  To install Jupyter
+    <span>&#36; pip3 install jupyter </span>
+  To open Jupyter Notebook 
+    <span>&#36; jupyter notebook </span>
+  </code>
+</pre>
+
+* *If the Jupyter installation was successful, but you are still unable to open Jupyter Notebook, you may need to restart your computer.*
+
+* *Other tips:* If you want to check the installed versions of *`python3`* and *`pip`* and eventually upgrade them, you can use the following commands in the terminal:
+<pre>
+  <code>
+  To check the installed version of python 
+    <span>&#36; python3 --version </span>
+  To check the installed version of pip
+    <span>&#36; pip3 --version </span>
+  To make sure that all packages are up-to-date : 
+    <span>&#36; pip3 install --upgrade pip3 </span>
+  </code>
+</pre>
+
+At this stage, you can only open a Jupyter Notebook in Python. <br>
+You can now follow the tutorial below to install the R kernel so that you can open a Jupyter Notebook in R. 
+
+### Installation of R kernel
+
+We assume that *`R`* is already installed on your computer. (You can download it [here](https://www.r-project.org/) using the [documentation](https://cran.r-project.org/doc/FAQ/R-FAQ.html9) related to your system. On Ubuntu, the [steps](https://www.danweitzel.net/post/installr/) proposed by Daniel Weitzel are very useful.)
+
+R kernel is a software component that allows you to run R code and create R notebooks within the Jupyter Notebook interface.  In comparison with Rmarkdown, Jupyter Notebook with R kernel provides a web-based interface that allows you to edit and execute code cells interactively. It is great for interactive execution and exploration of code.
+
+On both *Ubuntu* and *macOS*:
+
+* You can use the **computer's terminal** : 
+<pre>
+  <code>
+  To launch the R console 
+    <span>&#36; R </span>
+  To install the IRkernel packages 
+    > install.packages(‘IRkernel')  </span>
+  To link IRkernel with Jupyter Notebook 
+    > IRkernel::installspec()  </span>
+  </code>
+</pre>
+
+* **Or** if you are used to Rstudio, you can work directly in the **Rstudio console**:
+
+<pre>
+  install.packages(‘IRkernel')                                              
+  IRkernel::installspec()
+</pre> 
+
+
+### Create a R notebook
+You can open Jupyter Notebook from the **computer's terminal** using the command:
+<pre>
+  <code>
+    <span>&#36; jupyter notebook </span>
+  </code>
+</pre>
+If you have well installed IRkernel on your computer, you can now create a R notebook ! 
+<br> 
+<img src="tuto1_ex1_jnb.png" width="1000" height="400"/>
+<img src="tuto1_ex2_jnb.png" width="1000" height="400"/>
+

@@ -13,7 +13,7 @@ about:
       href: https://github.com/ClaireLepault
 ---
 
-Welcome! I am a PhD candidate at the Paris School of Economics (PSE) and CIRED (via ENPC).  My advisors are [Hélène Ollivier](https://sites.google.com/site/heleneollivier/) and [Philippe Quirion](https://www.centre-cired.fr/philippe-quirion/).
+Welcome! I am PhD candidate at the Paris School of Economics (PSE) and CIRED (via ENPC).  My advisors are [Hélène Ollivier](https://sites.google.com/site/heleneollivier/) and [Philippe Quirion](https://www.centre-cired.fr/philippe-quirion/).
 
 My research lies at the intersection of environmental, development and health economics, more specifically on issues related to water pollution and climate change in India. 
 
