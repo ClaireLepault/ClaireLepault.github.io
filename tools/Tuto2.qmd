@@ -1,0 +1,332 @@
+---
+title: "Data wrangling with 'dplyr' in R"
+format: html
+image: tuto2.png
+date: 07-12-23
+---
+
+#### *Prepared by Claire Lepault and Marie Sevestre* <br>
+
+`dplyr` offers a simple and consistent code syntaxe for data manipulation. We provide here short examples of the key `dplyr` verbs: `select()`, `filter()`, `arrange()`, `mutate()`, `summarize()` and `group_by()`.
+
+# To get started !
+
+## Ensure **tidyverse** is installed
+
+The `dplyr` package is part of the [`tidyverse`](https://dplyr.tidyverse.org/) (Hadleyverse), and it follows a grammar-based approach to programming/data work. 
+
+First, ensure **tidyverse** is installed : `install.packages('tidyverse')` <br>
+
+```{R pres}
+library("tidyverse") #Load the library 
+tidyverse_packages() #Display the packages
+```
+
+## The **pipe** operator
+
+
+### Pipes & dplyr
+
+Pipes are a simplifying programming tool that make your code easier to read. In `dplyr`, the expression for a pipe is `%>%`.
+
+### What is a pipe ?
+
+Pipes take the output of a function as the input/argument of another function. R's pipe specifically plugs the returned object to the left of the pipe into the first argument of the function on the right fo the pipe.
+
+<i>**Example: generate a random sample and obtain its mean**</i>
+```{r pipes exple}
+rnorm(10) %>%  #rnorm(n) generates a random sample of n observations from a normal distribution 
+    mean()
+```
+
+Pipes avoid nested functions, prevent excessive writing to your disc, and increase the readability of our R scripts. By default, R pipes the output from the LHS of the pipe into
+the first argument of the function on the RHS of the pipe. <br>
+For example, `a %>% fun(3)` is equivalent of `fun(arg1=a, arg2 = 3)`
+
+## The **storms** database
+
+To introduce dplyr` verbs with pipes, we will use the **storms** database, which is the NOAA Atlantic hurricane database best track data. 
+The data includes the positions and attributes of storms from 1975-2021. Storms from 1979 onward are measured every six hours during the lifetime of the storms. 
+
+If you want to learn more about storms : 
+```{R}
+?storms
+```
+<i> **NB** : In the following sections, the **head(n)** and **tail(n)** functions are used for the presentation, to show only the first or last **n** or rows of the database.</i> 
+
+```{R}
+storms %>%
+    head(2)
+```
+
+# The five key `dplyr` verbs
+
+There are five key dplyr verbs that you need to learn.
+
+* `select()`: Select (i.e. subset) columns by their names.
+
+* `filter()`: Filter (i.e. subset) rows based on their values.
+
+* `arrange()`: Arrange (i.e. reorder) rows based on their values.
+
+* `mutate()`: Create new columns.
+
+* `summarize()` and `group_by()`: Collapse multiple rows into a single summary value.
+
+<i>Let's practice these commands together using the storms data frame ! </i>
+
+## Select columns with `select()`
+
+If you want to select specific columns of a dataframe, you can use **select()**.
+
+### Selection based on columns names
+
+* Use commas to select multiple columns out of a data frame:
+```{R}
+storms %>% 
+    select(name, year, month, day, hour, wind, pressure)%>%
+    head(5)
+```
+* You can use "first:last" for consecutive columns:
+```{R}
+storms %>% 
+    select(name:hour, wind, pressure)%>%
+    head(5)
+```
+* You can deselect a column with `-`:
+```{R}
+storms %>% 
+    select(name:hour, wind, pressure, -day)%>%
+    head(5)
+```
+### Selection based on string characters
+
+**select(contains(PATTERN))** allows to select columns in a dataframe which contain a specific "PATTERN". It provides a nice shortcut in relevant cases: 
+
+```{R}
+storms %>% 
+    select(name, contains("diameter"))%>%
+    tail(5)
+```
+Here, we have selected the columns whose names contain the word "diameter".
+
+### Rename variables
+
+You can also rename some (or all) of your selected variables in place:
+
+```{R}
+storms %>%
+    select(alias=name, year, month, day, hour, wind_speed=wind, ts_diameter=tropicalstorm_force_diameter)%>%
+    head(5)
+```
+If you just want to rename columns without subsetting them, you can use rename:
+
+```{R}
+storms %>%
+    rename(alias=name, wind_speed=wind, ts_diameter=tropicalstorm_force_diameter)%>%
+    head(5)
+```
+
+
+## Filter observations with `filter()`
+
+To keep observations, that validate a particular condition, you can use **filter()**. 
+
+We can chain multiple filter commands with the pipe `%>%` or just separate them within a single filter command using commas:
+
+```{R}
+storms %>% 
+    select(name,year,month,day)%>%
+    filter(year==2008,month >= 6)%>%
+    head(3)
+```
+Here, we have selected the columns "name", "year", "month" and "day" thanks to **select()**. 
+With **filter()**, we keep row data with "year" equal to 2008 and "month" equal to or greater than six.   
+
+### Using logical operators
+
+We can use the `&` ("and") and/or `|` ("or") logical operators:
+
+```{R}
+storms %>% 
+    select(name,year,month,day)%>%
+    filter(year==2008 | month >= 6)%>%
+    head(3)
+```
+### Using regular expressions 
+
+The **grepl()** function allows to find the pattern in a character string. 
+```{R}
+storms %>% 
+    select(name:status)%>%
+    filter(grepl("tropical", status))%>%
+    head(5)
+```
+Here, we have kept the rows where the word "tropical" appears in the "status" column. 
+<br>
+
+### Missing values
+
+A very common filter use case is identifying (or removing) missing data cases: 
+
+```{R}
+storms %>% 
+    select(name,year,month,day,hour,ts_diameter=tropicalstorm_force_diameter)%>%
+    filter(is.na(ts_diameter))%>% 
+    head(3)
+```
+Here, we have renamed the column "tropicalstorm_force_diameter" in "ts_diameter". 
+The use of the **filter()** function, with the **is.na()** function, allows to filter the rows where the "ts_diameter" columns is missing (="NA"). 
+
+* **To remove missing observations, simply use negation**: filter(**!is.na(**ts_diameter**)**)
+
+```{R}
+storms %>% 
+    select(name,year,month,day,hour,ts_diameter=tropicalstorm_force_diameter)%>%
+    filter(!is.na(ts_diameter))%>% 
+    head(3)
+```
+
+## Sort data with `arrange()`
+
+You can arrange your data according to a colums, with the **arrange()** function. 
+```{R}
+storms %>% 
+    select(name,year,month,day,hour,ts_diameter=tropicalstorm_force_diameter)%>%
+    filter(!is.na(ts_diameter))%>%
+    arrange(ts_diameter)%>%
+    head(3)
+```
+Here, the **arrange()** function is used to sort the rows according to the "ts_diameter" columns, by ascensing order. 
+
+### Descending order
+
+By default, sorting will be organised by ascending order. We can also arrange items in descending order using `arrange(desc())`.
+```{R}
+storms %>% 
+    select(name,year,month,day,hour,ts_diameter=tropicalstorm_force_diameter)%>%
+    filter(!is.na(ts_diameter))%>%
+    arrange(desc(ts_diameter))%>%
+    head(3)
+```
+## Create news variable with `mutate()`
+
+You can create new columns from scratch, or (more commonly) as transformations of existing columns.
+
+```{R}
+storms %>% 
+    select(name, year, month, day) %>%
+    mutate(decade = paste0(substr(year, start = 1, stop = 3),0),
+           quarter = ifelse(month %in% c(12,1,2), "Winter",
+                        ifelse(month %in% 3:5, "Spring", 
+                            ifelse(month %in% 6:8,"Summer","Automn"))),
+            text = paste0(name, " occured in the ", decade,"'s"))%>%
+    head(4)
+```
+
+Here, we have created 3 columns :
+
+* "decade" is composed of the first three digits of the column year (extracted with the **substr()** function) followed by a 0 (concatenated to the first 3 digits thanks to the **paste0()** function).
+
+* "quarter" reprensents the quarter season based on the month value
+
+* "text" contains the concatenation of the name of the storm, the expression "occurred in the" and the corresponding decade.
+
+mutate is order aware. So you can chain multiple mutates in a single call.
+
+### mutate_if
+
+**mutate_if()** allows you to easily work on a subset of variables.
+
+```{R}
+storms %>% 
+    select(name:status) %>% 
+    mutate(status=as.character(status))%>%
+    mutate_if(is.character, toupper) %>% 
+    head(5)
+```
+
+The **toupper()** function converts a character string in uppercase. So with the **mutate_if(is.character)** function, here, if the columns of the storms dataframe are character strings, the **toupper()** function will be apply. 
+
+### mutate_at & mutate_all
+
+mutate_at and mutate_all are also helpful.
+**mutate_at** allows to modify specified columns. The list argument enables to choose the suffix added to the name of the column that is "mutated". 
+
+```{R}
+storms %>% 
+    select(name:status) %>% 
+    mutate_at(vars(name,status), list(UP =~ toupper(.))) %>% 
+    head(3)
+```
+Here, we have created the "name_UP" and "status_UP" columns, by converting the "name" and "status" column values in uppercase. 
+
+## Agregate operations with `summarize()` and `group_by()`
+
+`summarize()` summarizes variables: you choose the variables and the summaries (e.g., mean() or min()). 
+When using `group_by()`, summaries are done by groups:
+
+```{R}
+storms %>% 
+    select(name, year, wind, pressure) %>%
+    mutate(decade = paste0(substr(year, start = 1, stop = 3),0))%>%
+    group_by(decade) %>%                                       # for each decade
+    summarize(Nobs = n(),                                      #number of observations
+              mean_wind = mean(wind, na.rm = TRUE),            #average wind speed
+              max_pressure = max(pressure, na.rm = TRUE))%>%   #maximum pressure
+    head(4)
+```
+
+* **Note that including "na.rm = TRUE" (or, its alias "na.rm = T") is usually a good idea with summarize functions. Otherwise, any missing value will propogate to the summarized value too.**
+
+```{R}
+storms %>% 
+    summarize(mean_ts_diameter = mean(tropicalstorm_force_diameter))
+```
+```{R}
+storms %>%
+    summarize(mean_ts_diameter = mean(tropicalstorm_force_diameter, na.rm = TRUE))
+```
+
+### summarize_if, summarize_at and summarize_all
+
+The same if-, at- and all-based workflow that we saw with mutate a few slides back also works with summarize.
+
+```{R}
+storms %>% 
+    select(name, year, wind, pressure) %>%
+    mutate(decade = paste0(substr(year, start = 1, stop = 3),0))%>%
+    group_by(decade) %>% 
+    summarize_if(is.numeric, mean, na.rm=T) %>%
+    head(4)
+```
+
+```{R}
+storms %>% 
+    select(year, wind, pressure) %>%
+    mutate(decade = paste0(substr(year, start = 1, stop = 3),0))%>%
+    select(-year)%>%group_by(decade) %>% 
+    summarize_all(list(Mean=~mean(.,na.rm=TRUE), 
+                       Min=~min(.,na.rm=TRUE),
+                       Max=~max(.,na.rm=TRUE)))
+```
+
+# And more in **tidyverse**
+
+There's more with `dplyr`:
+
+- Merging **inner_join()**,**left_join()**,**anti_join()**
+- Viewing data **glimpse()**, **top_n()**
+- Sampling **sample_n()**, **sample_frac()**
+- Summaries **first()**, **last()**, **nth()**, **n_distinct()**
+- Duplicates **distinct()**
+- Missingness **na_if()**
+
+`tidyr` offers useful tools too:
+
+- Missingness **replace_na()**, **drop_na()**, **fill()**
+- Tidying **pivot_longer()**, **pivot_wider()**
+
+
+### Acknowlegdments
+This tutorial is inspired from great resources on data analysis and econometrics with R offered by [Ed Rubin](http://edrub.in/)([PhD Econometrics III](https://github.com/edrubin/EC607S23)) and [Grant Mac Dermott](https://grantmcdermott.com/) ([Data science for economists](https://github.com/uo-ec607/lectures)). 
