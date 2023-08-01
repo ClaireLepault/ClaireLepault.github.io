@@ -5,7 +5,7 @@ title: "Talks"
 
 #### **Conferences**
 
-* **2023**: AERE summer conference (Portland, Maine), IPWSD at Columbia University (New York), Journées doctorales du développement (Orléans)  <br> *Scheduled : ICDE (Paris)*
+* **2023**: AERE summer conference (Portland, Maine), IPWSD at Columbia University (New York), Journées doctorales du développement (Orléans), ICDE (Paris)
 
 * **2022**: ENR international conference (Orléans), Journées LAGV (Marseille), Nordic Conference in Development Economics (Helsinki), EAERE annual conference (Rimini), FAERE annual conference (Rouen)
 
