@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/teaching.html</loc>
-    <lastmod>2023-08-01T09:32:09.646Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/CV.html</loc>
-    <lastmod>2023-08-01T09:32:09.058Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/tools/Tuto3.html</loc>
-    <lastmod>2023-08-01T09:32:08.362Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/toolbox.html</loc>
-    <lastmod>2023-08-01T09:32:06.490Z</lastmod>
+    <lastmod>2023-10-06T16:07:10.774Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/index.html</loc>
-    <lastmod>2023-08-01T09:32:05.390Z</lastmod>
+    <lastmod>2023-10-06T16:07:10.134Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/research.html</loc>
-    <lastmod>2023-08-01T09:32:06.006Z</lastmod>
+    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/toolbox.html</loc>
+    <lastmod>2023-10-06T16:07:09.474Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/tools/Tuto2.html</loc>
-    <lastmod>2023-08-01T09:32:07.410Z</lastmod>
+    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/tools/Tuto5.html</loc>
+    <lastmod>2023-10-06T16:07:08.562Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/tools/Tuto4.html</loc>
+    <lastmod>2023-10-06T16:07:07.266Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/tools/Tuto1.html</loc>
-    <lastmod>2023-08-01T09:32:08.766Z</lastmod>
+    <lastmod>2023-10-06T16:07:05.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/tools/Tuto2.html</loc>
+    <lastmod>2023-10-06T16:07:06.914Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/tools/Tuto3.html</loc>
+    <lastmod>2023-10-06T16:07:08.274Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/talks.html</loc>
-    <lastmod>2023-08-01T09:32:09.358Z</lastmod>
+    <lastmod>2023-10-06T16:07:08.858Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/research.html</loc>
+    <lastmod>2023-10-06T16:07:09.826Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ClaireLepault/ClaireLepault.github.io/teaching.html</loc>
+    <lastmod>2023-10-06T16:07:10.446Z</lastmod>
   </url>
 </urlset>
