@@ -3,7 +3,7 @@ title: "CV"
 format: html
 ---
 
-**[Full CV](./docs/CV_CLepault_Apr23.pdf)**
+**[Full CV](./docs/CV_CLepault_Oct23.pdf)**
 
 <br>
 

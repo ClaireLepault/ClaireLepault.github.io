@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -176,82 +176,132 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1690754400000" data-listing-file-modified-sort="1690880902977" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18">
-<div class="thumbnail">
-<p><a href="./tools/Tuto3.html"> <img src="./tools/tuto3.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./tools/Tuto3.html">
-<h3 class="no-anchor listing-title">
-Data visualization with ‘ggplot2’ in R
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<code>ggplot2</code> is a data visualization package widely used for creating sophisticated plots. It was developped by Hadley Wickham and is based on the Grammar of Graphics (<em>gg</em>), which is a systematic framework for understanding and constructing data…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./tools/Tuto3.html">
-<div class="listing-date">
-Jul 31, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1689112800000" data-listing-file-modified-sort="1690880941369" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
-<div class="thumbnail">
-<p><a href="./tools/Tuto2.html"> <img src="./tools/tuto2.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./tools/Tuto2.html">
-<h3 class="no-anchor listing-title">
-Data wrangling with ‘dplyr’ in R
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<code>dplyr</code> offers a simple and consistent code syntaxe for data manipulation. We provide here short examples of the key <code>dplyr</code> verbs: <code>select()</code>, <code>filter()</code>, <code>arrange()</code>, <code>mutate()</code>, <code>summ…</code><code></code>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./tools/Tuto2.html">
-<div class="listing-date">
-Jul 12, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1687903200000" data-listing-file-modified-sort="1689011146778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<div class="thumbnail">
-<p><a href="./tools/Tuto1.html"> <img src="./tools/tuto1.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./tools/Tuto1.html">
-<h3 class="no-anchor listing-title">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1687903200000" data-listing-file-modified-sort="1696581112592" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<a href="./tools/Tuto1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./tools/tuto1.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Setting up Jupyter Notebook with R kernel
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
+</h5>
+<div class="card-text listing-description">
 Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text.…
 </div>
-</a>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
 </div>
-<div class="metadata">
-<a href="./tools/Tuto1.html">
 <div class="listing-date">
 Jun 28, 2023
 </div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1689112800000" data-listing-file-modified-sort="1696581118716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<a href="./tools/Tuto2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./tools/tuto2.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data wrangling with ‘dplyr’ in R
+</h5>
+<div class="card-text listing-description">
+<code>dplyr</code> offers a simple and consistent code syntaxe for data manipulation. We provide here short examples of the key <code>dplyr</code> verbs: <code>select()</code>, <code>filter()</code>, <code>arrange()</code>, <code>mutate()</code>, <code>summ…</code><code></code>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jul 12, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1690754400000" data-listing-file-modified-sort="1696581098208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18">
+<a href="./tools/Tuto3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./tools/tuto3.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data visualization with ‘ggplot2’ in R
+</h5>
+<div class="card-text listing-description">
+<code>ggplot2</code> is a data visualization package widely used for creating sophisticated plots. It was developped by Hadley Wickham and is based on the Grammar of Graphics (<em>gg</em>), which is a systematic framework for understanding and constructing data…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jul 31, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1696456800000" data-listing-file-modified-sort="1696581104204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./tools/Tuto5.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./tools/tuto5.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Geospatial analysis with ‘sf’ in R
+</h5>
+<div class="card-text listing-description">
+Coming soon!
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Oct 5, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1696456800000" data-listing-file-modified-sort="1696580074695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./tools/Tuto4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./tools/blank_image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Applied econometrics with ‘fixest’ in R
+</h5>
+<div class="card-text listing-description">
+Coming soon!
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Oct 5, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">

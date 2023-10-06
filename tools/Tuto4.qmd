@@ -1,0 +1,8 @@
+---
+title: "Applied econometrics with 'fixest' in R"
+format: html
+image: blank_image.jpg
+date: 10-05-23
+---
+
+Coming soon!

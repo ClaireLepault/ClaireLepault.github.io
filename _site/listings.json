@@ -2,9 +2,11 @@
   {
     "listing": "/toolbox.html",
     "items": [
-      "/tools/Tuto3.html",
+      "/tools/Tuto1.html",
       "/tools/Tuto2.html",
-      "/tools/Tuto1.html"
+      "/tools/Tuto3.html",
+      "/tools/Tuto5.html",
+      "/tools/Tuto4.html"
     ]
   }
 ]
