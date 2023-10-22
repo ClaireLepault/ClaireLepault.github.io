@@ -11,11 +11,15 @@ about:
       href: https://www.centre-cired.fr/en/claire-lepault-2/
     - icon: github
       href: https://github.com/ClaireLepault
+    - text: HAL 
+      href: https://hal.science/search/index/q/*/contributorId_i/969205
 ---
 
-Welcome! I am PhD candidate at the Paris School of Economics (PSE) and CIRED (via ENPC).  My advisors are [Hélène Ollivier](https://sites.google.com/site/heleneollivier/) and [Philippe Quirion](https://www.centre-cired.fr/philippe-quirion/).
+Welcome! I am a PhD candidate at the Paris School of Economics (PSE) and CIRED (via ENPC).  My advisors are [Hélène Ollivier](https://sites.google.com/site/heleneollivier/) and [Philippe Quirion](https://www.centre-cired.fr/philippe-quirion/).
 
 My research lies at the intersection of environmental, development and health economics, more specifically on issues related to water pollution and climate change in India. 
+
+**I am on the job market this year (2023/24).**
 
 In spring 2023, I have been visiting the University of Oregon hosted by [Ed Rubin](http://edrub.in/).
 
