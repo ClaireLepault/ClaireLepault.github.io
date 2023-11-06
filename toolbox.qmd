@@ -8,9 +8,12 @@ listing:
   image-height: 150px
 ---
 
-You can review the following documents for additional information:
+I'm grateful to [Andrew Dickinson](https://ajdickinson.github.io/) for his advice on using [Quarto](https://quarto.org/) to create this website!!
+
+
+Below are short tutorials on setting up Jupyter Notebook with R kernel, wrangling data with [`dplyr`](https://dplyr.tidyverse.org/index.html), visualizing data with [`ggplot2`](https://ggplot2.tidyverse.org/), doing geospatial analysis with [`sf`](https://rdrr.io/cran/sf/), and performing regressions with [`fixest`](https://lrberge.github.io/fixest/):
+
 
 ::: {#sample-listings}
 :::
 
-Thanks to [Andrew Dickinson](https://ajdickinson.github.io/) for his advice about using [Quarto](https://www.quarto.com) for creating this website.
