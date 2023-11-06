@@ -8,3 +8,9 @@ listing:
   image-height: 150px
 ---
 
+You can review the following documents for additional information:
+
+::: {#sample-listings}
+:::
+
+Thanks to [Andrew Dickinson](https://ajdickinson.github.io/) for his advice about using [Quarto](https://www.quarto.com) for creating this website.
