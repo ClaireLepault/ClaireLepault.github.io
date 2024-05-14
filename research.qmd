@@ -12,9 +12,10 @@ title: "Research"
 
 ### Working paper
 
-**Heat stress, hydraulic conditions and health in India** with Philippe Quirion and Pierre Uginet
+**A hidden health impact of heat: exacerbated anemia in India** with Philippe Quirion and Pierre Uginet
 
-*Abstract:* Heat waves, exacerbated by global warming, have increasingly negative health effects, particularly in relatively poor and hot countries such as India. These impacts are partly direct, caused by hyperthermia, and partly due to reduced food availability. While numerous harmful health effects of hot temperatures have been established, little is known about the links between heat waves and anemia, a medical condition affecting one-quarter of people worldwide and 43% of India’s population. Using health, nutritional and climate data, we analyze the relationship between heat stress and anemia in India over the past decade. We examine both dry heat waves (high temperatures) and humid heat waves (combination of high temperatures and humidity). We find preliminary evidence indicating that heat waves worsen anemia in children and women. Moreover, the mechanism responsible does not seem to be related to reduced food availability. <br>
+*Abstract:* Global warming has increasingly negative health effects, particularly in relatively poor and hot countries such as India. These impacts are partly direct, caused by hyperthermia, and partly due to vector-borne diseases and reduced food availability. While numerous harmful health effects of high temperatures have been established, there is very little research on their possible impact on anemia, a medical condition affecting one-quarter of people worldwide and 43% of India's population. Using health, nutritional and climate data, we analyze the relationship between high temperatures and anemia in India over the past decade. We match blood hemoglobin measures from nearly 259,000 children, 901,000 women and 138,000 men to both dry heat waves (high temperatures) and humid heat waves (combination of high temperatures and humidity). 
+We find that high temperatures exposure in the 30 days preceding the blood measurement worsen anemia in all individuals, especially children and women. Moreover, the mechanisms responsible do not seem to be related to reduced food availability, but malaria could explain part of the relationship between temperature and anemia. <br>
 *Draft coming soon*
 
 ### Work in progress
