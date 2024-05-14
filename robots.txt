@@ -1,1 +1,1 @@
-Sitemap: https://github.com/ClaireLepault/ClaireLepault.github.io/sitemap.xml
+Sitemap: https://ClaireLepault.github.io/sitemap.xml
