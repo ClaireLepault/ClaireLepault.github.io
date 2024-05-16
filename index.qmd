@@ -15,13 +15,13 @@ about:
       href: https://hal.science/search/index/q/*/contributorId_i/969205
 ---
 
-Welcome! I am a PhD candidate at Paris School of Economics (PSE). 
-In October 2024, I'll be a CIRAD research fellow based at the CIRED research centre.
+Welcome! I am a PhD candidate at Paris School of Economics (PSE) and CIRED research centre (via ENPC). 
+In October 2024, I'll be a CIRAD research fellow based at CIRED.
 
 My research lies at the intersection of **environmental, development and health economics**, more specifically on issues related to water pollution and climate change in India. 
 
 In spring 2023, I visited the University of Oregon. <br>
-Before the PhD, I received an engineering degree at ENPC and a master Analysis and Policy in Economics at PSE. Much of my motivation comes from experience working for the Intergovernmental Panel on Climate Change (IPCC) at CIRED. 
+Before the PhD, I received an engineering degree at ENPC and a master Analysis and Policy in Economics at PSE. Much of my motivation comes from experience working for the Intergovernmental Panel on Climate Change (IPCC). 
 
 **Contact** : claire.lepault [at] psemail.eu
 
