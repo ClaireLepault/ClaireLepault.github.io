@@ -5,24 +5,24 @@ about:
   template: trestles
   image-shape: round
   links:
-    - text: PSE
-      href: https://www.parisschoolofeconomics.eu/en/lepault-claire/
+    - text: CIRAD
+      href: https://www.cirad.fr/en
     - text: CIRED
-      href: https://www.centre-cired.fr/en/claire-lepault-2/
+      href: https://www.centre-cired.fr/en/
     - icon: github
       href: https://github.com/ClaireLepault
     - text: HAL 
       href: https://hal.science/search/index/q/*/contributorId_i/969205
 ---
 
-Welcome! I am a PhD candidate at Paris School of Economics (PSE) and CIRED research centre (via ENPC). 
-In October 2024, I'll be a CIRAD researcher based at CIRED.
+<br>
 
-My research lies at the intersection of **environmental, development and health economics**, more specifically on issues related to water pollution and climate change in India. 
+Welcome! I am a **CIRAD researcher based at CIRED**. 
 
-In spring 2023, I visited the University of Oregon. <br>
-Before the PhD, I received an engineering degree at ENPC and a master Analysis and Policy in Economics at PSE. Much of my motivation comes from experience working for the Intergovernmental Panel on Climate Change (IPCC). 
+My research lies at the intersection of **environmental, development and health economics**. I have a particular interest in exploring how environmental issues, such as pollution and climate change, affect human health through their impacts on natural resources.
 
-**Contact** : claire.lepault [at] psemail.eu
+I completed my PhD at the Paris School of Economics and CIRED in September 2024.
+
+**Contact** : claire.lepault [at] cirad.fr
 
 Please feel free to get in touch!
