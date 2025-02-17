@@ -1,0 +1,60 @@
+---
+title: "Outreach"
+---
+
+#### In French
+
+#### **Fête de la Science 2024 - Journée Climat, Biodiversité et Systèmes Complexes**
+*Organisé par l'Institut des Systèmes Complexes de Paris IdF (ISC-PIF) en partenariat avec le Centre international de recherche sur l'environnement et le développement (CIRED)*
+
+[Lien vers le programme](https://iscpif.fr/journee-cbsc-programme/)
+
+
+**Le Climat illustré par l’Ecole Estienne**
+
+* Illustrations scientifiques par les étudiants de l'Ecole Estienne autour de présentations de recherche
+
+Ci-dessous les projets en lien avec ma thèse "Effets de la pollution de l'eau et de la chaleur sur la santé en Inde"
+ 
+
+<details>
+<summary> **Pollution fécale et mortalité infantile sur le Gange** par Ninon Chauveau </summary>
+ <img src="./docs/media/Pollution_fecale/F62696EC-AC6C-4944-B045-939B4C5A39E5.jpg"  width="700">
+ <img src="./docs/media/Pollution_fecale/E93FB806-BC0D-4722-A575-9828C0353A92.jpg"  width="700">
+ <img src="./docs/media/Pollution_fecale/F2E3B85F-89E7-4A95-9964-BFAB9ED18557.jpg"  width="700">
+ <img src="./docs/media/Pollution_fecale/9D5E70EF-0D15-4BE6-8FDF-2D6E0F2191EA.jpg"  width="700">
+ <img src="./docs/media/Pollution_fecale/BA02E334-4A31-4699-9C6F-16D70063ABE7.jpg" width="700">
+</details>
+
+<details>
+<summary> **Comment fonctionne une station d'épuration?** par Hélène Trinh </summary>
+ <video width="700" height="550" controls>
+  <source src="./docs/media/Station_epuration/IMGL9531.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</details>
+
+<details>
+<summary> **Chaleur et paludisme** par Ema Dias </summary>
+ <img src="./docs/media/Paludisme/2vecteur-moustique.gif"  alt="Gif" width="700">
+  <img src="./docs/media/Paludisme/vecteur-moustique-1.png"  width="700">
+  <img src="./docs/media/Paludisme/vecteur-moustique-2.png"  width="700">
+  <img src="./docs/media/Paludisme/vecteur-moustique-3.png"  width="700">
+  <img src="./docs/media/Paludisme/vecteur-moustique-4.png"  width="700">
+  <img src="./docs/media/Paludisme/vecteur-moustique-5.png"  width="700">
+  <img src="./docs/media/Paludisme/vecteur-moustique-6.png"  width="700">
+</details>
+ 
+<details>
+<summary> **Dystrophisation** par Aurélien Guillot </summary>
+ <img src="./docs/media/Dystrophisation/DYSTROPHISATION 1.jpg"  width="700">
+ <img src="./docs/media/Dystrophisation/DYSTROPHISATION 3.jpg"  width="700">
+</details>
+
+<details>
+<summary> **Valeur de la Vie Statistique (VVS)** par Kévin Forest </summary>
+ <img src="./docs/media/VVS/trio_carte_VVS.png"  width="700">
+ <img src="./docs/media/VVS/Inde_VVS.png"  width="700">
+ <img src="./docs/media/VVS/inde_mi_ouvert.png"  width="700">
+ <img src="./docs/media/VVS/tel_ouvert_VVS.png"  width="700">
+</details>

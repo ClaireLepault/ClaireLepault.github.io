@@ -11,6 +11,7 @@ website:
         href: "index.qmd" 
       - CV.qmd
       - research.qmd
+      - outreach.qmd
       - teaching.qmd
       - toolbox.qmd
       
