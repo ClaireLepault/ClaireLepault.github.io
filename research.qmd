@@ -6,7 +6,7 @@ title: "Research"
 
 
 **Is urban wastewater treatment effective in India? Evidence from water quality and infant mortality** <br>
-*R&R* Economic Journal ([link](./docs/JMP_CLepault.pdf) to the latest version)
+*R&R* at Economic Journal ([link](./docs/JMP_CLepault.pdf) to the latest version)
 <details>
 <summary> Abstract </summary>
 In developing countries, untreated sewage exposes people to alarming water pollution levels, yet there is limited knowledge about the effectiveness of wastewater treatment investments. I evaluate the impact of wastewater treatment on water quality and infant mortality in India, exploiting the staggered introduction of urban sewage treatment plants over the period 2010-2020. I match granular data on sewage treatment plants, river water quality, as well as child births and deaths using the hydrological network. I show that after initiating wastewater treatment, levels of fecal coliforms – a commonly used measure of fecal contamination in water – decreased by 53% (95% CI: [7; 99]). Mortality under the age of six months – a critical period for digestive system development – declined by 20% (95% CI: [3; 36]) downstream of the plants, with larger effects observed for boys and children from the lowest wealth quintiles. The results are consistent across several estimators robust to heterogeneous treatment effects, are not driven by selective migration, and are found only downstream of the plants, which rules out confounding effects from other local policies. Wastewater treatment is cost-effective according to GDP-based thresholds, with a cost of INR 6 million per life saved and INR 85,000 per DALY averted for children under six months. <br>
@@ -14,8 +14,9 @@ In developing countries, untreated sewage exposes people to alarming water pollu
 ENPC blog [post](https://ingenius.ecoledesponts.fr/articles/le-traitement-des-eaux-usees-en-inde-est-il-efficace/)
 </details>
 
-**A hidden health impact of heat: exacerbated anemia in India** with Philippe Quirion and Pierre Uginet
-*Submitted*
+**A hidden health impact of heat: exacerbated anemia in India** with Philippe Quirion and Pierre Uginet 
+<br>
+*Major Revision*  at Journal of Environmental Economics and Management
 <details>
 <summary> Abstract </summary>
 Global warming has increasingly negative health effects, particularly in relatively poor and hot countries such as India. These impacts are partly due to the direct effect of high temperatures on the human body, and partly due to vector-borne diseases and reduced food availability. While numerous harmful health effects of high temperatures have been established, there is little research into their possible impact on anemia, a medical condition affecting 25% of the global population and 43% of people in India. Using health, nutrition and climate data, we analyze the relationship between heat exposure and anemia in India over the past decade. We match blood hemoglobin measurements from nearly 259,000 children, 901,000 women and 138,000 men to two different measurements of exposure to heat, based on air temperature and wet-bulb temperature respectively. We find that heat exposure in the 30 days preceding blood measurement worsens anemia in these three population groups. Moreover, the mechanisms responsible do not seem to be related to reduced food availability, while malaria could explain part of the relationship between temperature and anemia. Finally, we estimate the number of extra cases induced by a +2°C increase in annual air temperature, which has an associated cost of around 7.6 bn US dollars, i.e., 0.2% of Indian GDP.
@@ -24,6 +25,12 @@ Global warming has increasingly negative health effects, particularly in relativ
 ### Work in progress
 
 **Fertilizers, water quality and perinatal health in India** with Eléonore Rouault 
+<br>
+
+**The impact of work-related injuries on medical consumption** with Anne-Celia Disdier and Carl Gaigné
+<br>
+
+**Exposure to high temperature and anemia in Indonesia** with Emile Chaput, Philippe Quirion and Pierre Uginet
 <br>
 
 ### Publication
