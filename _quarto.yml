@@ -1,6 +1,8 @@
 project:
   type: website
-
+  resources:
+    - docs/media/**/*.mp4
+    
 website:
   title: "Claire Lepault"
   navbar:
